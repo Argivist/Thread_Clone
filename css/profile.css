@@ -1,0 +1,118 @@
+.profilepage{
+
+}
+.page{
+
+}
+.pinfo{
+    
+
+}
+.p-information{
+    display:flex;
+    justify-content: space-between;
+
+}
+.p-text{
+
+}
+.p-username{
+    margin-top: 10px;
+    font-size: 30px;
+
+}
+.handle{
+
+    display: flex;
+
+}
+.p-handle{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.thread-net{
+    width:fit-content;
+    background-color: rgba(128, 128, 128, 0.708);
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top:1px;
+    font-size:x-small;
+
+    border-radius: 100px;
+    color: rgb(218, 207, 207);
+}
+.p-image{
+    border: 1px solid grey;
+    border-radius:100%;
+    width: 80px;
+    height:80px;
+    margin-right: 10px;
+
+}
+.p-descr{
+
+    margin-right: 20%;
+}
+.p-stats{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.followers{
+
+}
+.instagram{
+    
+}
+.instagram svg{
+    width:20px;
+    height:20px;
+}
+
+.edit-profile{
+    border:1px solid rgba(255, 255, 255, 0.301);
+    border-radius: 7px;
+    height:24px;
+    text-align: center;
+    padding-top:5px;
+    
+    margin: 10px;
+}
+.p-nav{
+    display: flex;
+}
+.btn{
+    width:calc(100%/3) ;
+    height: 40px;
+    text-align:center;
+    padding-top: 20px;
+    border-bottom: 1px solid grey;
+    color:grey;
+}
+
+.active-tab{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.p_threads{
+    background-color: darkblue;
+    text-align: center;
+}
+
+.p_replies{
+    background-color: saddlebrown;
+    text-align: center;
+}
+
+.p_reposts{
+    background-color: goldenrod;
+    text-align: center;
+}
+
+.subgrouping div{
+    padding-top: 100px;
+}

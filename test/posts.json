@@ -1,0 +1,31 @@
+{
+    "name": "Crescent",
+    "profile_pic":"img/profiles/Crescent.jpg",
+    "Post-text":"Valley of blueCrest mounts, the sun sets and the moon rises. The crescent moon shines bright in the night sky.",
+    "Post-image":"img/posts/ValleyBlue.jpg",
+    "post_time":"5hrs",
+    "likes":"2",
+    "comments":{
+        "comment1":{
+            "profile_pic":"img/profiles/Blue.jpg",
+            "comment_text":"Beautiful",
+            "comment_time":"2hrs"
+        },
+        "comment2":{
+            "profile_pic":"img/profiles/Blue.jpg",
+            "comment_text":"Beautiful",
+            "comment_time":"2hrs"
+        },
+        "comment3":{
+            "profile_pic":"img/profiles/Blue.jpg",
+            "comment_text":"Beautiful",
+            "comment_time":"2hrs"
+        },
+        "comment4":{
+            "profile_pic":"img/profiles/Blue.jpg",
+            "comment_text":"Beautiful",
+            "comment_time":"2hrs"
+        }
+    },
+    "liked":true
+}

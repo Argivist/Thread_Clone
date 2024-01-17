@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.thread_post {
+    margin-top: 10px;
+    display: flex;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.47);
+    height: 80px;
+}
+.textbox{
+    border: none;
+    background-color: rgb(32, 30, 30);
+    color:grey;
+}
+.page{
+    margin: 0px 25% 0 25%;
+}
+.shown{
+    transition: ease-in-out 3s;
+    display: block;
+}
+.hidden{
+    transition:ease-in-out 3s;
+    display: none;
+}

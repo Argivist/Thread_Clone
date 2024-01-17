@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/navbar.css"/>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/post.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo/mclogo_bl.jpeg" />
+    <title>Threads</title>
+
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+
+<body>
+    <!--navbar-->
+    <div class="nav">
+        <div class="logo"><img alt="threads" src="img/logo/logo_bl.jpeg" type="image/a" /></div>
+        <div class="nav-btn">
+            <div class="home nav-icon" id="n-home-btn">
+                <!--id=home-->
+                <svg id="n-home" class="active" width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M21 17.8109V10.8663C21 9.88216 20.5726 8.95316 19.8418 8.34896L14.4558 3.89571C13.0113 2.70143 10.9887 2.70143 9.54424 3.89571L4.15818 8.34896C3.42742 8.95316 3 9.88216 3 10.8663V17.8109C3 19.5722 4.34315 21 6 21H8C8.55228 21 9 20.5523 9 20V16.7478C9 14.9865 10.3431 13.5587 12 13.5587C13.6569 13.5587 15 14.9865 15 16.7478V20C15 20.5523 15.4477 21 16 21H18C19.6569 21 21 19.5722 21 17.8109Z"
+                        stroke-width="2" />
+                </svg>
+
+
+            </div>
+            <!--id=search-->
+            <div class="search nav-icon">
+                <svg width="800px" id="search" class="passive" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M16.6725 16.6412L21 21M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            <!--id=post-->
+            <div class="post nav-icon special">
+                <svg width="800px" id="post" class="passive" outline="none" height="800px" viewBox="0 0 32 32"
+                    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1"
+                    xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="Layer1">
+                        <path
+                            d="M16,6l-13,0c-0.552,0 -1,0.448 -1,1l0,22c0,0.552 0.448,1 1,1l22,0c0.552,0 1,-0.448 1,-1l0,-13c0,-0.552 -0.448,-1 -1,-1c-0.552,-0 -1,0.448 -1,1l0,12c0,0 -20,0 -20,0c0,0 0,-20 0,-20c-0,0 12,0 12,0c0.552,0 1,-0.448 1,-1c0,-0.552 -0.448,-1 -1,-1Zm-9,19l14,-0c0.552,0 1,-0.448 1,-1c0,-0.552 -0.448,-1 -1,-1l-14,0c-0.552,0 -1,0.448 -1,1c0,0.552 0.448,1 1,1Zm-0,-4l4,0c0.552,-0 1,-0.448 1,-1c-0,-0.552 -0.448,-1 -1,-1l-4,0c-0.552,-0 -1,0.448 -1,1c-0,0.552 0.448,1 1,1Zm22.707,-13.293c0.391,-0.39 0.391,-1.024 0,-1.414l-4,-4c-0.39,-0.391 -1.024,-0.391 -1.414,-0l-10,10c-0.14,0.139 -0.235,0.317 -0.274,0.511l-1,5c-0.065,0.328 0.037,0.667 0.274,0.903c0.236,0.237 0.575,0.339 0.903,0.274l5,-1c0.194,-0.039 0.372,-0.134 0.511,-0.274l10,-10Zm-22.707,9.293l4,0c0.552,0 1,-0.448 1,-1c0,-0.552 -0.448,-1 -1,-1l-4,0c-0.552,0 -1,0.448 -1,1c0,0.552 0.448,1 1,1Zm0,-4l5,-0c0.552,0 1,-0.448 1,-1c0,-0.552 -0.448,-1 -1,-1l-5,-0c-0.552,0 -1,0.448 -1,1c0,0.552 0.448,1 1,1Z" />
+                    </g>
+                </svg>
+            </div>
+            <!--id=notify-->
+            <div class="notification nav-icon special">
+                <svg width="800px" id="notify" class="passive" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M2 9.1371C2 14 6.01943 16.5914 8.96173 18.9109C10 19.7294 11 20.5 12 20.5C13 20.5 14 19.7294 15.0383 18.9109C17.9806 16.5914 22 14 22 9.1371C22 4.27416 16.4998 0.825464 12 5.50063C7.50016 0.825464 2 4.27416 2 9.1371Z" />
+                </svg>
+            </div>
+            <!--id=profile-->
+            <div class="profile_ nav-icon "  id="n-profile-btn">
+                <svg width="800px" class="passive" id="n-profile-icon" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path class="empty" d="M12 11.796C14.7189 11.796 16.9231 9.60308 16.9231 6.89801C16.9231 4.19294 14.7189 2.00005 12 2.00005C9.28106 2.00005 7.07692 4.19294 7.07692 6.89801C7.07692 9.60308 9.28106 11.796 12 11.796Z"/>
+                    <path class="empty" d="M14.5641 13.8369H9.4359C6.46154 13.8369 4 16.2859 4 19.245C4 19.9593 4.30769 20.5716 4.92308 20.8777C5.84615 21.3879 7.89744 22.0001 12 22.0001C16.1026 22.0001 18.1538 21.3879 19.0769 20.8777C19.5897 20.5716 20 19.9593 20 19.245C20 16.1838 17.5385 13.8369 14.5641 13.8369Z" />
+                    </svg>
+            </div>
+        </div>
+        <div class="settings nav-icon menu">
+            <!--menu icon-->
+            <svg width="800px" class="empty" height="800px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                <title>ic_fluent_list_28_regular</title>
+                <desc>Created with Sketch.</desc>
+                <g id="🔍-Product-Icons" stroke-width="1" fill-rule="evenodd">
+                    <g id="ic_fluent_list_28_regular"  fill-rule="nonzero">
+                        <path d="M16.25,21 C16.664,21 17,21.336 17,21.75 C17,22.164 16.664,22.5 16.25,22.5 L3.75,22.5 C3.336,22.5 3,22.164 3,21.75 C3,21.336 3.336,21 3.75,21 L16.25,21 Z M24.2484387,13.4983804 C24.6624387,13.4983804 24.9984387,13.8343804 24.9984387,14.2483804 C24.9984387,14.6623804 24.6624387,14.9983804 24.2484387,14.9983804 L3.74843873,14.9983804 C3.33443873,14.9983804 2.99843873,14.6623804 2.99843873,14.2483804 C2.99843873,13.8343804 3.33443873,13.4983804 3.74843873,13.4983804 L24.2484387,13.4983804 Z M20.25,6 C20.664,6 21,6.336 21,6.75 C21,7.164 20.664,7.5 20.25,7.5 L3.75,7.5 C3.336,7.5 3,7.164 3,6.75 C3,6.336 3.336,6 3.75,6 L20.25,6 Z" id="🎨-Color">
+            
+            </path>
+                    </g>
+                </g>
+            </svg>
+        </div>
+    </div>
+    <div class="whitespace"></div>
+    <!--homepage-->
+    <div id="homepage" class="homepage page shown">
+        <div class="thread_post">
+            <img class="profile" src="https://th.bing.com/th?id=OIF.708%2f0HHqDwS8JLhqGdsxUg&w=270&h=202&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="profile" />
+            <p class="post-text"> Start a thread...</p>
+            <div class="post-section">
+                <p>Post</p>
+            </div>
+        </div>
+        <div id="thread_" class="thread_collection"></div>
+    </div>
+    
+    <div class="whitespace"></div>
+    <!--profile-->
+    <div class="profilepage page hidden" id="profilepage">
+        <div class="pinfo" id="pinfo">
+            <div class="p-information">
+                <div class="p-text">
+                    <div class="p-username" id="p-username">Username</div>
+                    <div class="handle">
+                        <p class="p-handle" id="p-handle">@user.name</p>
+                        <div class="thread-net">threads.net</div>
+                    </div>
+                </div>
+                <div class="p-image"><img src="img/profile/th.jpg" alt="" class="p-image" id="p-image"></div>
+            </div>
+            <div class="p-descr" id="p-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ratione neque dolorum illo, ea tempora iusto! Excepturi placeat ad nisi perspiciatis distinctio, doloremque, quasi reprehenderit quam ratione expedita iste cupiditate!</div>
+            <div class="p-stats" id="p-stats">
+                <div class="followers" id="followers">14 followers</div>
+                <div class="instagram">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="white"/>
+                        <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z" fill="white"/>
+                        </svg>
+                </div>
+            </div>
+            <div class="edit-profile">
+                Edit Profile
+            </div>
+        </div>
+        <div class="p-nav">
+            <div class="active-tab thread-btn btn" id="thread-btn">Thread</div>
+            <div class="reply-btn btn" id="reply-btn">Repost</div>
+            <div class="repost-btn btn" id="repost-btn">Reply</div>
+        </div>
+        <div class="subgrouping">
+            <div class="p_threads shown" id="p-threads"> No Posts</div>
+            <div class="p_replies hidden" id="p-replies">No Replies</div>
+            <div class="p_reposts hidden" id="p-reposts">No Reposts</div>
+        </div>
+    </div>
+
+</body>
+<script src="js/navigation.js"></script>
+<script src="js/profile.js"></script>
+<script src="js/posts.js"></script>
+<script src="js/react.js"></script>
+</html>

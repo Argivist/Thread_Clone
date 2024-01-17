@@ -1,0 +1,177 @@
+.body{
+    justify-content: center;
+    background-color: red;
+}
+.threadpost {
+    display: flex;
+    margin: 0px 25% 0 25%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.47);
+    color: white;
+    height: auto;
+}
+
+.thread-post{
+    width: 100%;
+    height: auto;
+
+    display: grid;
+    grid-template-columns: min-content auto;
+    border-bottom: 2px solid rgba(43, 40, 40, 0.6);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.profile-images{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:auto;
+
+    justify-content: space-between;
+}
+.post-user{
+    width: fit-content;
+    height: fit-content;
+    
+}
+.post-user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border:1px solid grey;
+}
+.comment-users{
+    width: auto;
+    height: auto;
+
+    padding-left: 5px;
+}
+.comment-users img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid rgb(98, 96, 96);
+}
+.other{
+    margin-left:-15px;
+}
+
+
+
+.more{
+    border-radius: 100%;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: fit-content;
+
+    transition: ease-in-out 0.2s;
+}
+.more:hover{
+    background-color: rgba(70, 69, 69, 0.6);;
+    transition: ease-in-out 0.2s;
+}
+.more svg{
+    width: 30px;
+    height: 30px;
+}
+.post-container{
+    
+}
+.side-items{
+    display: flex;
+    font-size: x-small;
+    justify-content: center;
+    
+}
+.timepast{
+    width: 20px;
+    height: 20px;
+    font-size: small;
+    color: grey;
+    margin-top: 3px;
+    
+}
+.post-header{
+    
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+
+}
+.post-context{
+    width: inherit;
+    
+    color: grey;
+    font-size: medium;
+    margin: 10px;
+}
+.post-images{
+    display: flex; /* Use flexbox to create a row */
+    justify-content: space-between; /* Distribute space between images */
+    align-items: center;
+
+    display: flex;
+    overflow: hidden;
+    overflow-x: auto;
+    scrollbar-color: grey black;
+    margin:10px;
+    width: auto;
+}
+.post-images img{
+    height: auto;
+    border-radius: 7px;
+    margin: 2px;
+    
+}
+.threes{max-width: calc(100% / 3);
+}
+.twos{
+    max-width: calc(100% / 2);
+}
+.ones{
+    max-width: 100%;
+}
+/*react*/
+.post-react{
+    
+    height: 35px;
+    width:15%;
+    display: flex;
+    
+}
+
+.react{
+    stroke: white;
+    width: -moz-fit-content;
+    height: auto;
+    width: fit-content;
+    
+    border-radius: 50%;
+    transition:ease-in-out 0.1s;
+}
+.react:hover{
+    background-color: rgba(70, 69, 69, 0.6);
+    transition:ease-in-out 0.1s;
+}
+.react svg{
+    margin:5px;
+
+    width: 25px;
+    height: 25px;
+}
+.liked{
+    fill:red;
+    stroke:red;
+    transition: ease-in-out 0.2s;
+}
+.unliked{
+    stroke:white;
+    transition: ease-in-out 0.2s;
+
+}
+.stats{
+    margin: 10px;
+    display: flex;
+    color:rgba(128, 123, 123, 0.582);
+}
+.username{
+        margin:10px;
+}

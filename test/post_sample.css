@@ -1,0 +1,172 @@
+.body{
+    justify-content: center;
+    background-color: red;
+}
+.threadpost {
+    display: flex;
+    margin: 0px 25% 0 25%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.47);
+    color: white;
+    height: auto;
+}
+
+.thread-post{
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: min-content auto;
+    border-bottom: 2px solid rgba(43, 40, 40, 0.6);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.profile-images{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:auto;
+    background-color: goldenrod;
+    justify-content: space-between;
+}
+.post-user{
+    width: fit-content;
+    height: fit-content;
+    background-color: aqua;
+}
+.post-user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border:1px solid grey;
+}
+.comment-users{
+    width: auto;
+    height: auto;
+    background-color: salmon;
+
+    padding-left: 5px
+}
+.comment-users img{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.other{
+    margin-left:-7px;
+}
+
+
+
+.more{
+    border-radius: 100%;
+    width: fit-content;
+    height: fit-content;
+    background-color: red;
+    transition: ease-in-out 0.2s;
+}
+.more:hover{
+    background-color: black;
+    transition: ease-in-out 0.2s;
+}
+.more svg{
+    width: 20px;
+    height: 20px;
+}
+.post-container{
+    background-color: darkseagreen;
+}
+.side-items{
+    display: flex;
+    font-size: x-small;
+    justify-content: center;
+    background-color: rgb(35, 151, 151);
+}
+.timepast{
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+    background-color: rosybrown;
+}
+.post-header{
+    background-color: darkslategray;
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+
+}
+.post-context{
+    width: inherit;
+    background-color: brown;
+    color: grey;
+    font-size: medium;
+    margin: 10px;
+}
+.post-images{
+    display: flex; /* Use flexbox to create a row */
+    justify-content: space-between; /* Distribute space between images */
+    align-items: center;
+    background-color: darkslateblue;
+    display: flex;
+    overflow: hidden;
+    overflow-x: auto;
+    scrollbar-color: grey black;
+    margin:10px;
+    width: auto;
+}
+.post-images img{
+    height: auto;
+    border-radius: 7px;
+    margin: 2px;
+    border: 1px solid grey;
+}
+.threes{max-width: calc(100% / 3);
+}
+.twos{
+    max-width: calc(100% / 2);
+}
+.ones{
+    max-width: 100%;
+}
+/*react*/
+.post-react{
+    background-color: lightblue;
+    height: 35px;
+    width:15%;
+    display: flex;
+    
+}
+
+.react{
+    stroke: white;
+    background-color: pink;
+    width: -moz-fit-content;
+    height: auto;
+    width: fit-content;
+    
+    border-radius: 50%;
+    transition:ease-in-out 0.1s;
+}
+.react:hover{
+    background-color: rgba(70, 69, 69, 0.331);
+    transition:ease-in-out 0.1s;
+}
+.react svg{
+    margin:5px;
+
+    width: 25px;
+    height: 25px;
+}
+.liked{
+    fill:red;
+    stroke:red;
+    transition: ease-in-out 0.2s;
+}
+.unliked{
+    stroke:white;
+    transition: ease-in-out 0.2s;
+}
+.stats{
+    display: flex;
+    color:rgba(202, 199, 199, 0.582)(128, 128, 128, 0.377)
+}
+/*other*/
