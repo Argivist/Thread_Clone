@@ -8,13 +8,13 @@
     <link rel="icon" href="img/logo/mclogo_bl.jpeg"/><title>Login</title>
 </head>
 <body>
-    <form action="home.html" method="post">
+    <form>
     <div class="login container">
         <p class="subheading">Login with your Instagram account</p>
         
         <input type="text" class="textbox inpt-logn" placeholder="   Username, phone or email"/>
         <input type="text" class="textbox inpt-logn" placeholder="   Password"/>
-        <input type="submit" class="login-btn" value="Log In"/>
+        <input type="submit" id="login-btn" class="login-btn" value="Log In"/>
         
         <a href="stuck.html" >Forgot password?</a>
         <div class="or">
@@ -37,5 +37,10 @@
     <a href="">Report a problem</a>
 </div>
 </body>
-<script src="js/login.js"></script>
+<script>
+    var login_btn=document.getElementById("login-btn");
+    login_btn.addEventListener('click',()=>{
+        window.open("home.html","_blank");
+    });
+</script>
 </html>
