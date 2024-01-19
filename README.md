@@ -1,12 +1,14 @@
 # Thread_Clone
 
+[Threads Website](https://thread.net)
+
 ## Description
 
 This is a clone of threads. It is a simple implementation of threads with HTML, CSS, and JS.
 
 ## Running the pages
 
-1. Clone the repository: `git clone https://github.com/your-username/Thread_Clone.git`
+1. Clone the repository: `git clone https://github.com/Argivist/Thread_Clone.git`
 
 ### In Vscode
 
@@ -20,13 +22,13 @@ This is a clone of threads. It is a simple implementation of threads with HTML, 
 
 2. launch your xampp control panel and start youur server.
 
-3. open your browser and go to `http://localhost/``directory to the thread clone`` `
+3. open your browser and go to `http://localhost/``directory to the thread clone``/index.html `
 
 ## Usage
 
 - Click on the login button no credentials needed
 
-- Use the navigation menu to switch between the home page and the profile page.
+- Use the navigation menu to switch between the home page(first middle button) and the profile page(last middle button).
 
 ## Contributing
 
@@ -45,9 +47,13 @@ This project is licensed under the [MIT License](LICENSE).
 ## References
 
 [Threads](https://threads.net): website reference
+
 [W3Schools](https://www.w3schools.com):code reference
+
 [Pexels](https://www.pexels.com): Image Source
+
 [ChatGPT](https://www.chat.openai.com): Generic text generation(post descriptions and profile description
+
 
 ## Contact
 
