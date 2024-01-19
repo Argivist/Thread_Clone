@@ -38,6 +38,18 @@ z-index:1000;
     background-color: rgba(173, 169, 169, 0.285);
     transition: ease-in-out 0.2s;
 }
+
+.menu{
+    transition: ease-in-out 0.3s;
+    background-color: none;
+    
+}
+.menu:hover{
+    background-color: black;
+    fill: white;
+    stroke: white;
+    transition:ease-in-out 0.3s;
+}
 .active{
     fill:white;
     stroke: white;
