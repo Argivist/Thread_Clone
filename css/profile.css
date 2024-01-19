@@ -1,21 +1,10 @@
-.profilepage{
 
-}
-.page{
-
-}
-.pinfo{
-    
-
-}
 .p-information{
     display:flex;
     justify-content: space-between;
 
 }
-.p-text{
 
-}
 .p-username{
     margin-top: 10px;
     font-size: 30px;
@@ -32,6 +21,7 @@
 
 }
 .thread-net{
+    width:-moz-fit-content;
     width:fit-content;
     background-color: rgba(128, 128, 128, 0.708);
     justify-content: center;
@@ -61,12 +51,7 @@
     justify-content: space-between;
     
 }
-.followers{
 
-}
-.instagram{
-    
-}
 .instagram svg{
     width:20px;
     height:20px;
@@ -99,17 +84,17 @@
 }
 
 .p_threads{
-    background-color: darkblue;
+
     text-align: center;
 }
 
 .p_replies{
-    background-color: saddlebrown;
+
     text-align: center;
 }
 
 .p_reposts{
-    background-color: goldenrod;
+
     text-align: center;
 }
 
