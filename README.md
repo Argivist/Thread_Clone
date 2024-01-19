@@ -42,6 +42,13 @@ Contributions are welcome! Here's how you can contribute to the project:
 
 This project is licensed under the [MIT License](LICENSE).
 
+## References
+
+[Threads](https://threads.net): website reference
+[W3Schools](https://www.w3schools.com):code reference
+[Pexels](https://www.pexels.com): Image Source
+[ChatGPT](https://www.chat.openai.com): Generic text generation(post descriptions and profile description
+
 ## Contact
 
 For any questions or suggestions, please feel free to reach out to me at [hutton.amisonaddy2@gmail.com](mailto:hutton.amisonaddy2@gmail.com).
